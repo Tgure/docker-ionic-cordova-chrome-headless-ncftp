@@ -2,7 +2,7 @@ FROM tgure/android-nodejs:latest
 
 # Install Ionic, Cordova, Chrome and NCFTP
 ENV IONIC_VERSION latest
-ENV CORDOVA_VERSION 9.0.0
+ENV CORDOVA_VERSION 10.0.0
 ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE DontWarn
 
 WORKDIR "/tmp"
